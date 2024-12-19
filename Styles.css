@@ -1,3 +1,14 @@
+:root{
+    --fondogradiante: linear-gradient(to bottom, #dd2476, #ff512f);
+    --colorglobal:#0c0090;
+    --TextClaro: white; 
+}
+
+
+
+
+
+
 body {
     font-family: "Titillium Web", sans-serif;
 }
@@ -8,10 +19,15 @@ main{
     min-height: 80vh;
 }
 
+header{
+    background: var(--colorglobal);
+    color: white;
+    background: var(--fondogradiante);
+}
 footer{
     background: rgba(0, 0, 0, 0.815);
 }
 
 .iconos i{
-    color: #dd2476;
+    color: var(--colorglobal);
 }

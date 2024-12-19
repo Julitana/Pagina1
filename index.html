@@ -27,40 +27,53 @@
   <body>
       
     <!-- Inicio: Navbar  100% -->
-      <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="#">App Store</a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-            aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">App Store </a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsibleNavId">
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <li class="nav-item active">
+                  <a class="nav-link" href="Index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#Header">Encabezado</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#Testimonios">Testimonios</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#Articulos">Articulos</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link" href="#Footer">Pie de pagina</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">Ver mas paginas</a>
               <div class="dropdown-menu" aria-labelledby="dropdownId">
-                <a class="dropdown-item" href="#">Action 1</a>
-                <a class="dropdown-item" href="#">Action 2</a>
+                  <a class="dropdown-item" href="Informacion.html">Informacion</a>
+                  <a class="dropdown-item" href="NuestroEquipo.html">Nuestro Equipo</a>
               </div>
-            </li>
+              </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              <input class="form-control mr-sm-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </form>
-        </div>
-      </nav>
+      </div>
+  </nav>
     <!-- Fin: Navbar  -->
 
     <!-- Inicio: Container 90% -->
       <div class="container">
                 <!-- Inicio: Header  -->
-                <header class="mbt-5 mt-5">
+                <header id="Header"class="mbt-5 mt-5">
                    <div class="container">
                     <div class="row">
                        <!-- Inicio: Contenedor 1  -->
@@ -71,14 +84,18 @@
 
                          <!-- Inicio: Contenedor 2  -->
                        <div class="col-md-6  col-sm-6">
-                       <div class="jumbotron">
-                        <h1 class="display-3">Jumbo heading</h1>
-                        <p class="lead">Jumbo helper text</p>
-                        <hr class="my-2">
-                        <p>More info</p>
-                        <p class="lead">
-                          <a class="btn btn-outline-danger btn-lg mt-2" href="Jumbo action link" role="button">Jumbo action name</a>
+                       <div class="">
+                        <h1 class="display-4">Jumbo heading</h1>
+                        <p class="lead mt-5 ">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit maiores beatae provident
+                           explicabo eaque! Quia at sit harum voluptatibus tenetur magni commodi. Voluptatum cupiditate, 
+                           id quibusdam atque eaque neque odio!
+
                         </p>
+                        
+                          <a class="btn btn-secondary btn-lg mt-2 d-flex justify-content" href="Jumbo action link" role="button">Jumbo 
+                            action name</a>
+                        
                        </div>
                        </div>
                          <!-- Fin: Contenedor  2-->
@@ -93,10 +110,14 @@
                 <!-- Inicio: Main  -->
                <main>
                             <!-- Inicio: section  1  -->
-                             <section class="Testimonios">
+                             <section id="Testimonios"class="Testimonios mt-5">
                               <div class="container">
-                                Hola
-
+                              <p class="h2 mb-2">
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reprehenderit qui esse! Deleniti 
+                              voluptatum praesentium blanditiis dolore facere,
+                               assumenda maxime animi, eius sunt nisi quisquam esse doloribus aspernatur neque omnis?
+                              </p>
+                              <p class="h4 lead"> Autor </p>
                               </div>
 
             
@@ -107,26 +128,33 @@
                             <!-- Fin: section 1 -->
 
                             <!-- Inicio: section 2  -->
-                            <section class="articulos">
+                            <section id="Articulos" class="Articulos mt-5">
                               <div class="container">
-                                <div class="row">
-
-                               <!-- Inicio: Contenedor 1  -->
-                                  <div class="col-md-6 col-sm-6">
-                                   hola
+              
+                                  <div class="row">
+              
+                                      <!-- Inicio: Contenedor 1  -->
+                                      <div class="col-md-6 col-sm-6">
+                                         <img src="/Assets/Imagen2.png" class="w-100" alt="">
+                                      </div>
+                                      <!-- Fin: Contenedor 1 -->
+              
+                                      <!-- Inicio: Contenedor 2  -->
+                                      <div class="col-md-6 col-sm-6">
+                                          <h2>Lorem ipsum</h2>
+                                          <p>
+                                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt magnam autem quidem dolor in nostrum ex, illo, animi cumque earum dicta quibusdam optio sapiente reprehenderit tempore aperiam repellendus soluta reiciendis.
+                                          </p>
+                                          <a class="btn btn-danger btn-lg" href="#">Read More</a>
+                                      </div>
+                                      <!-- Fin: Contenedor  2-->
                                   </div>
-                                    <!-- Fin: Contenedor 1 -->
-
-                                    <!-- Inicio: Contenedor 2  -->
-                                    <div class="col-md-6 col-sm-6">
-                                    hola 
-                                    </div>
-                                    <!-- Fin: Contenedor  2-->
-                                </div>
-
+              
                               </div>
-                               
-                            </section>
+              
+              
+              
+                          </section>
                                     
                             <!-- Fin: section  2-->
 
@@ -136,7 +164,7 @@
     <!-- Fin: Container  -->
 
     <!-- Inicio: footer 100%   --> 
-      <footer class="text-center">
+      <footer id="Footer"class="text-center">
          <!-- Inicio: footer-informacion    -->
         <div class="container">
           <div class="row">
